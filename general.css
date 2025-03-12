@@ -1,0 +1,8 @@
+@font-face {
+  font-family: font1;
+  src: url(Fonts/BacasimeAntique-Regular.ttf);
+}
+
+* {
+  font-family: font3;
+}
