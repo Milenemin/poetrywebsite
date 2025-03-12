@@ -1,10 +1,28 @@
 nav a {
   text-decoration: none;
 }
-a:hover:nth-child(1) {
-  border-radius: 10px;
-  padding: 1 rem;
+.autumnbutton:hover {
+  border-radius: 15px;
   background-color: #f5d7b1;
+}
+.winterbutton:hover {
+  border-radius: 15px;
+  background-color: #99aadf;
+}
+
+.springbutton:hover {
+  border-radius: 15px;
+  background-color: #90c5a4;
+}
+
+.summerbutton:hover {
+  border-radius: 15px;
+  background-color: #e6f4a0;
+}
+
+nav ul li a {
+  padding: 0.5rem;
+  color: black;
 }
 
 nav ul li:nth-child(odd) {
@@ -23,6 +41,13 @@ nav ul {
 
 h1 {
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.index1 img {
+  width: 400%;
+  height: 30%;
+  object-fit: cover;
 }
 
 /*
