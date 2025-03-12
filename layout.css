@@ -28,6 +28,9 @@ nav ul li a {
 nav ul li:nth-child(odd) {
   translate: 0 -15px;
 }
+img {
+  width: 100%;
+}
 
 nav ul {
   display: flex;
@@ -45,11 +48,14 @@ h1 {
 }
 
 .index1 img {
-  width: 400%;
   height: 30%;
   object-fit: cover;
 }
-
+.index1 p {
+  text-align: center;
+  align-content: center;
+  margin-bottom: 40px;
+}
 /*
 @media (min-width: 800px) {
   .index1 {
