@@ -1,0 +1,16 @@
+@media (min-width: 800px) {
+  .index1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .index1 img {
+    width: 100%;
+  }
+  .index1 p {
+    text-align: center;
+  }
+  .index2 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+}
