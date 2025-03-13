@@ -6,7 +6,10 @@
 * {
   font-family: font1;
 }
-autumn.html {
+.title {
+  color: black;
+  text-decoration: none;
+  font-size: 31px;
 }
 
 nav a {
@@ -28,7 +31,7 @@ nav a {
 
 .summerbutton:hover {
   border-radius: 9px;
-  background-color: #e6f4a0;
+  background-color: #f8f7aa;
 }
 
 nav ul li a {
@@ -59,11 +62,6 @@ nav ul {
   flex-direction: row;
 }
 
-.title {
-  color: black;
-  text-decoration: none;
-}
-
 h1 {
   text-align: center;
   margin-top: 14%;
@@ -73,7 +71,6 @@ h1 {
 }
 
 div:has(img) {
-  outline: dashed 2px rgb(255, 255, 255);
   width: 100vw;
   height: 500px;
 }
@@ -81,6 +78,7 @@ div:has(img) {
 .quote {
   text-align: center;
   align-content: center;
+  margin-bottom: 3rem;
 }
 
 .index1 img {
@@ -97,4 +95,40 @@ div:has(img) {
 }
 #summerid {
   background-color: #fcffec;
+}
+.poem1,
+.poem2,
+.poem3,
+.poem4,
+.poem5,
+.poem6,
+.poem7,
+.poem8,
+.poem9,
+.poem10,
+.poem11,
+.poem12,
+.poem13 {
+  line-height: 1.6;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.poem3,
+.poem4,
+.poem6,
+.poem7,
+.poem9 {
+  text-align: center;
+}
+
+.poem1,
+.poem2,
+.poem5,
+.poem8,
+.poem10,
+.poem11,
+.poem12,
+.poem13 {
+  margin-left: 25px;
 }
