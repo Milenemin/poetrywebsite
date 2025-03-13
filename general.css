@@ -6,3 +6,95 @@
 * {
   font-family: font1;
 }
+autumn.html {
+}
+
+nav a {
+  text-decoration: none;
+}
+.autumnbutton:hover {
+  border-radius: 15px;
+  background-color: #f5d7b1;
+}
+.winterbutton:hover {
+  border-radius: 15px;
+  background-color: #99aadf;
+}
+
+.springbutton:hover {
+  border-radius: 15px;
+  background-color: #90c5a4;
+}
+
+.summerbutton:hover {
+  border-radius: 9px;
+  background-color: #e6f4a0;
+}
+
+nav ul li a {
+  padding: 10px;
+  color: black;
+}
+
+nav ul li:nth-child(odd) {
+  translate: 0 -15px;
+}
+
+nav ul li:nth-child(even) {
+  translate: 0 10px;
+}
+img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  flex-direction: row;
+}
+
+.title {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 14%;
+  margin-bottom: 10%;
+  color: black;
+  text-decoration: none;
+}
+
+div:has(img) {
+  outline: dashed 2px rgb(255, 255, 255);
+  width: 100vw;
+  height: 500px;
+}
+
+.quote {
+  text-align: center;
+  align-content: center;
+}
+
+.index1 img {
+  margin-top: 2rem;
+}
+#autumnid {
+  background-color: #f7efe4;
+}
+#winterid {
+  background-color: #e3e9fd;
+}
+#springid {
+  background-color: #e5f3ea;
+}
+#summerid {
+  background-color: #fcffec;
+}
