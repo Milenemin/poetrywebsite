@@ -5,7 +5,18 @@
 
 * {
   font-family: font1;
-  margin: 0;
+  max-width: 1300px;
+}
+
+.autumnid,
+.winterid,
+.springid,
+.summerid {
+  margin: auto;
+}
+
+div {
+  font-size: large;
 }
 .title {
   color: black;
@@ -49,7 +60,6 @@ nav ul li:nth-child(even) {
 }
 img {
   max-width: 100%;
-  max-height: 80%;
   object-fit: cover;
 }
 
@@ -134,6 +144,60 @@ h1 {
   line-height: 1.4;
 }
 
-.intro1 .intro2 {
-  padding: 1rem;
+.intro1,
+.intro2 {
+  width: 60ch;
+  justify-self: center;
+}
+
+.intro1 {
+  align-self: end;
+}
+
+.buttonpoem1 {
+  background-color: #ffffff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+@media (width>=800px) {
+  .title {
+    color: black;
+    text-decoration: none;
+    font-size: 60px;
+  }
+  nav ul li:nth-child(odd) {
+    translate: 0 10x;
+  }
+
+  nav ul li:nth-child(even) {
+    translate: 0 30px;
+  }
+  .header {
+    margin-bottom: 6rem;
+  }
+  .title {
+    text-align: center;
+  }
+  .winter1 {
+    padding: 6em;
+  }
+  div:has(img) {
+    max-width: 600px;
+  }
+
+  .web {
+    max-width: 70%;
+    margin: auto;
+  }
+  .web section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .web section div {
+    grid-column: 1/ 2;
+  }
 }
