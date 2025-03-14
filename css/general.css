@@ -5,6 +5,7 @@
 
 * {
   font-family: font1;
+  margin: 0;
 }
 .title {
   color: black;
@@ -131,4 +132,8 @@ h1 {
 .intro1,
 .intro2 {
   line-height: 1.4;
+}
+
+.intro1 .intro2 {
+  padding: 1rem;
 }
