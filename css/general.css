@@ -2,9 +2,15 @@
   font-family: font1;
   src: url(Fonts/BacasimeAntique-Regular.ttf);
 }
-
 * {
   font-family: font1;
+}
+
+header {
+  max-width: 1300px;
+}
+
+main {
   max-width: 1300px;
 }
 
@@ -167,6 +173,17 @@ h1 {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.footer {
+  margin-top: 3em;
+  border-top: 2px solid #000;
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
 }
 
 @media (width>=800px) {
