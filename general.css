@@ -294,3 +294,7 @@ div {
     background-color: #f8f7aa;
   }
 }
+
+.grid-span-1 {
+  margin-left: 2em;
+}
