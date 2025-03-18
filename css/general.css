@@ -2,8 +2,18 @@
   font-family: font1;
   src: url(Fonts/BacasimeAntique-Regular.ttf);
 }
+@font-face {
+  font-family: font2;
+  src: url(Fonts/Nunito-VariableFont_wght.ttf);
+}
+
 * {
   font-family: font1;
+}
+
+.credit {
+  font-family: font2;
+  font-size: small;
 }
 
 header {
@@ -21,9 +31,6 @@ body .autumnid,
   margin: auto;
 }
 
-div {
-  font-size: large;
-}
 .title {
   color: black;
   text-decoration: none;
@@ -48,7 +55,7 @@ nav a {
 }
 
 .summerbutton:hover {
-  border-radius: 9px;
+  border-radius: 15px;
   background-color: #f8f7aa;
 }
 
@@ -85,6 +92,10 @@ h1 {
   margin-bottom: 10%;
   color: black;
   text-decoration: none;
+}
+
+div {
+  font-size: large;
 }
 
 .grid-span-1 {
@@ -223,5 +234,30 @@ h1 {
   }
   .web section div {
     grid-column: 1/ 2;
+  }
+
+  nav ul li a {
+    padding: 11px;
+    padding-left: 19px;
+    padding-right: 19px;
+    color: black;
+  }
+  .autumnbutton:hover {
+    border-radius: 15px;
+    background-color: #f5d7b1;
+  }
+  .winterbutton:hover {
+    border-radius: 15px;
+    background-color: #99aadf;
+  }
+
+  .springbutton:hover {
+    border-radius: 15px;
+    background-color: #90c5a4;
+  }
+
+  .summerbutton:hover {
+    border-radius: 15px;
+    background-color: #f8f7aa;
   }
 }
